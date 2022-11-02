@@ -1,5 +1,5 @@
 // npm install --save-dev electron-packager
-// npx electron-packager . QuinyxClassic --all --icon "quinyx.icns" 
+// npx electron-packager . QuinyxClassic --icon "quinyx.icns" 
 
 const {app, BrowserWindow, Menu} = require('electron');
 const path = require('path')
