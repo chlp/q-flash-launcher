@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quinyx Classic macOS launcher</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style type="text/css">
+        body {
+            background: #004851;
+            color:  #ffffff;
+            font-family: system-ui;
+        }
+
+        a {
+            color: #2D7B88;
+            font-weight: 500;
+        }
+
+        span.small {
+            font-weight: 100;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quinyx Classic macOS launcher</h1>
+    <p>
+        <a href="https://web.quinyx.com/classic">Production</a> <span class="small">https://web.quinyx.com/classic</span><br>
+        <a href="https://web-test.quinyx.com/classic">Test</a> <span class="small">https://web-test.quinyx.com/classic</span><br>
+        <a href="https://web-qdaily.quinyx.com/classic">Qdaily</a> <span class="small">https://web-qdaily.quinyx.com/classic</span><br>
+        <a href="https://web-rc.quinyx.com/classic">RC</a> <span class="small">https://web-rc.quinyx.com/classic</span><br>
+    </p>
+    <p>
+        <label for="url">URL:</label> <input id="url" type="text" size="30" value="https://web.quinyx.com/classic"> <input type="button" onclick="location.href=document.getElementById('url').value;" value="Go!">
+    </p>
+</body>
+</html>
